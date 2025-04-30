@@ -62,9 +62,8 @@ for backend :
 ```
 4. Run the backend :
 ```bash
-   npm run dev
+   npm run start
 
-npm run dev
 ```
 
 5.screeshots:
