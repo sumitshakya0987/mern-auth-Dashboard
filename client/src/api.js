@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API = axios.create({
     baseURL: import.meta.env.VITE_API_URL, // or process.env.REACT_APP_API_URL
-  withCredentials: true, // send cookies if using JWT with httpOnly cookie
+  withCredentials: true,
 });
 
 // Attach JWT Token
