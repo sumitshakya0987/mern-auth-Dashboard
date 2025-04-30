@@ -16,7 +16,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-    origin: "http://localhost:5173", // your frontend port
+    origin: 'https://mern-auth-dashboard-1.onrender.com', // your frontend port
     credentials: true, // allow cookies
   }));
 app.use(express.json());
