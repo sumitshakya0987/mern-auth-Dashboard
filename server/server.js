@@ -16,15 +16,15 @@ connectDB();
 
 // Middleware
 app.use(cors({
-    origin: 'https://mern-auth-dashboard-1.onrender.com', // your frontend port
-    credentials: true, // allow cookies
+    origin: 'https://mern-auth-dashboard-1.onrender.com', //frontend port
+    credentials: true,
   }));
 app.use(express.json());
 
 // Routes
 app.use('/auth', authRoutes);
 
-app.use('/api/dashboard', dashboardRoutes); // << Add this
+app.use('/api/dashboard', dashboardRoutes); 
 
 // Root route
 app.get('/', (req, res) => {
